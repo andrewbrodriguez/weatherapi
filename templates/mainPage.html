@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Weather Anywhere</title>
+</head>
+<body style="background-color: lightskyblue;"><center>
+
+   <p style="border:10px; border-style:solid; border-color:steelblue; padding: 10px; font-size: 60px; position: relative; top:-52px;"
+
+   >Weather API Project: with Twillio and OpenWeather</p>
+
+   <h1 style = "position: relative; top:-100px; font-size: 30px; font-family: Arial; color: darkslategray;"
+
+   >Using this site, all you have to do is put in your phone number and a city to receive a text describing the weather in that city. To do this the data regarding weather is grabbed from OpenWeatherMap and the message is sent throught Twillio</h1>
+
+   <form method="GET" action="getWeather" style= "position: relative; top: -50px; font-family: Verdana;">
+      <h1>Enter a City and a Phone Number</h1>
+
+      City: <input type="text" name="city"style = "position: relative; left: 5px;">
+      <br>
+      Phone:    <input type="text" name="phone"style = "position: relative; left: -4px;">
+       <br>
+      <input type="submit" name="Get Weather"style = "position: relative; top: 20px;">
+   </form>
+
+</body>
+</html>
